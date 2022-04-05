@@ -25,6 +25,7 @@
 
 .game:hover {
     transform: scale(1.2);
+    cursor: pointer;
 }
 
 .title {
@@ -39,11 +40,11 @@
     transform: scale(0.6);
     transition: all .1s ease-in-out;
 }
-
+/* 
 .logo:hover {
     transform: scale(0.8);
     text-emphasis-color: #202020;
-}
+} */
 
 body {
     background-color: #2b2b2b;
