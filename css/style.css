@@ -6,6 +6,7 @@
 
 .games {
     display: grid;
+    padding-top: 3em;
     justify-content: space-evenly;
     justify-items: center;
     align-content: space-evenly;
@@ -14,12 +15,13 @@
     /* grid-template-rows: repeat(5, 1fr); */
     grid-column-gap: 0px;
     grid-row-gap: 0px;
+    gap: 100px;
 }
 
 .game {
     border-radius: 50%;
     height: 4000%;
-    width: 100%;
+    width: 145%;
     transition: all .1s ease-in-out;
 }
 
