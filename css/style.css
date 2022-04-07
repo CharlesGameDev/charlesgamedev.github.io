@@ -6,23 +6,14 @@
 
 .games {
     display: grid;
-    padding-top: 3em;
-    justify-content: space-evenly;
-    justify-items: center;
-    align-content: space-evenly;
-    align-items: center;
-    grid-template-columns: repeat(4, 1fr);
-    /* grid-template-rows: repeat(5, 1fr); */
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    gap: 100px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    grid-auto-rows: minmax(200px, auto);
 }
 
 .game {
     border-radius: 50%;
     background-size: cover;
-    height: 4000%;
-    width: 145%;
     transition: all .1s ease-in-out;
 }
 
