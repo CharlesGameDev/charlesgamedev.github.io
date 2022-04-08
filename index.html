@@ -9,17 +9,24 @@
   </head>
   <body>
     <div class="page">
-      <div class="title">
-        Charles Game Dev
-        <img class="logo" src="img/cgd.png">
-      </div>
-      <div class="games">
-        <button class="game" onclick="redirect('https://skyfall-game.github.io')" style="background-image: url(games/skyfall/image.png);">
-        <button class="game" onclick="redirect('/games/roofy')" style="background-image: url(games/roofy/icon.png);">
-        <button class="game" onclick="redirect('/games/gameup')" style="background-image: url(games/gameup/image.jpg);">
-        <button class="game" onclick="redirect('/games/physics/')" style="background-image: url(games/physics/image.png);">
-        <button class="game" onclick="redirect('/games/tetris/')" style="background-image: url(games/tetris/icon.png); background-position: center; background-size: 20em;">
-      </div>
+      <h1 style="font-size: 6em;">Charles Game Dev</h1>
+      <span id="mobile-warning" style="display: none;" class="mobile-warning">My games aren't playable on mobiles at the moment.<br>I will try to get some games out for mobiles when I get the chance.</span>
+      <h1>Mainline games</h1>
+      <br><br><br><br>
+      <section>
+        <button class="game" id="skyfall" onmouseenter="onHover(this)" onmouseleave="resetBackground()" onclick="redirect('https://skyfall-game.github.io')" style="background-image: url(/games/skyfall/image.png);">
+        <button class="game" id="roofy" onmouseenter="onHover(this)" onmouseleave="resetBackground()" onclick="redirect('/games/roofy')" style="background-image: url(games/roofy/icon.png);">
+      </section>
+      <br><br><br><br>
+      <h1>Other games</h1>
+      <img class="centered" src="/img/thanks-jonathan.png">
+      <br><br><br><br><br><br>
+      <section>
+        <button class="game" id="physics" onmouseenter="onHover(this)" onmouseleave="resetBackground()" onclick="redirect('/games/physics/')">
+        <button class="game" id="gameup" onmouseenter="onHover(this)"  onmouseleave="resetBackground()" onclick="redirect('/games/gameup')" style="background-image: url(games/gameup/image.jpg);">
+        <button class="game" id="tetris" onmouseenter="onHover(this)"  onmouseleave="resetBackground()" onclick="redirect('/games/tetris/')" style="background-image: url(games/tetris/icon.png);">
+        <button class="game" id="tetris2d" onmouseenter="onHover(this)" onmouseleave="resetBackground()" onclick="redirect('/games/tetris2d/')" style="background-image: url(games/tetris2d/image.png);"></button>
+      </section>
     </div>
     
     <script src="js/index.js"></script>
