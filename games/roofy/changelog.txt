@@ -1,6 +1,6 @@
-<color=#9900FF>Roofy Ragdolls 0.0.7.1</color>
+<color=#9900FF>Roofy Ragdolls 0.0.7.2</color>
 ---
-<color=#02F2F2>ADDED: </color>more codes xd
+<color=#02F2F2>ADDED: </color>more codes (hint: press 'b' to open your freecam and look around)
 ---
 ---
-<color=#FFAB40>CHANGED: </color>from me button location
+<color=#FFAB40>CHANGED: </color>made among us shirt transparent to match your color
