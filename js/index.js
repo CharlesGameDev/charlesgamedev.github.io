@@ -6,7 +6,8 @@ images = {
     "tetris2d": "/games/tetris2d/banner.jpg",
     "gameup": "/games/gameup/banner.png",
     "minesweeper": "/games/minesweeper/banner.png",
-    "indiguns": "/games/indiguns/banner.png"
+    "indiguns": "/games/indiguns/banner.png",
+    "wyns": "/games/wyns/banner.png",
 }
 
 const bgS = document.body.style;
